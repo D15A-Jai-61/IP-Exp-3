@@ -1,0 +1,69 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.profile-background {
+    background-color: #9de2ff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 250px;
+    border-radius: 15px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.project-links .btn {
+    margin-bottom: 5px;
+}
+
+.contact-links a {
+    color: #007bff;
+    font-size: 1.1rem;
+}
+
+.contact-links a:hover {
+    color: #0056b3;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.list-group-item a:hover {
+    text-decoration: underline;
+}
+
+.bg-light {
+    background-color: #f1f3f5 !important;
+}
+
+.btn-outline-primary, .btn-primary {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#projectLinks, #contactLinks {
+    transition: all 0.3s ease-in-out;
+}
